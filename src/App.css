@@ -222,7 +222,8 @@ svg:not(:root).svg-inline--fa  {
 }
 
 .contact-icon {
-    font-size: 1.3rem;
+    width: 1.3rem;
+    margin-right: 5px;
 }
 
 ::-webkit-scrollbar {

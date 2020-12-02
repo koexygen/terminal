@@ -2,6 +2,12 @@ import React from "react";
 import "./App.css";
 import "./Bulma.min.css";
 import gio from "./gio.jpg";
+import LinkedIn from "./svg/linkedin.svg";
+import Facebook from "./svg/facebook.svg";
+import Github from "./svg/github.svg";
+import Instagram from "./svg/instagram.svg";
+import WhatsApp from "./svg/whatsapp.svg";
+import Gmail from "./svg/gmail.svg";
 
 const BLACKLISTED_KEY_CODES = [38];
 const COMMANDS = {
@@ -111,42 +117,62 @@ function App() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="fab fa-linkedin icon contact-icon" />
+                        <img
+                          src={LinkedIn}
+                          alt="linkedin"
+                          className="contact-icon"
+                        />
                       </a>
                       <a
                         href="https://www.facebook.com/thekoexygen/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="fab fa-facebook icon contact-icon" />
+                        <img
+                          src={Facebook}
+                          alt="Facebook"
+                          className="contact-icon"
+                        />
                       </a>
                       <a
                         href="https://github.com/koexygen"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="fab fa-github icon contact-icon" />
+                        <img
+                          src={Github}
+                          alt="Github"
+                          className="contact-icon"
+                        />
                       </a>
                       <a
                         href="https://www.instagram.com/koexygen/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="fab fa-instagram icon contact-icon" />
+                        <img
+                          src={Instagram}
+                          alt="Instagram"
+                          className="contact-icon"
+                        />
                       </a>
                       <a
                         href="https://wa.me/995558888884"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="fab fa-whatsapp icon contact-icon" />
+                        <img
+                          src={WhatsApp}
+                          alt="WhatsApp"
+                          className="contact-icon"
+                        />
                       </a>
                       <a
                         href="mailto:ggiosweb@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="far fa-envelope icon contact-icon" />
+                        <img src={Gmail} alt="Gmail" className="contact-icon" />{" "}
                       </a>
                     </div>
                     <div className="resume">
