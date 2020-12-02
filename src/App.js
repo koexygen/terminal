@@ -8,6 +8,7 @@ import Github from "./svg/github.svg";
 import Instagram from "./svg/instagram.svg";
 import WhatsApp from "./svg/whatsapp.svg";
 import Gmail from "./svg/gmail.svg";
+import Heart from "./svg/heart.svg";
 
 const BLACKLISTED_KEY_CODES = [38];
 const COMMANDS = {
@@ -229,8 +230,9 @@ function App() {
         <footer className="footer">
           <div className="content has-text-centered">
             <p>
-              I Am Proud <i className="fas fa-heart icon" /> Georgian, Biker and
-              Coder.
+              I Am Proud
+              <img src={Heart} alt="Heart" className="contact-icon" /> Coder,
+              Georgian and Biker.
             </p>
           </div>
         </footer>

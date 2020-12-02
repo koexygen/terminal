@@ -55,7 +55,6 @@ p {
 }
 
 .sidebar-link {
-    font-size: 0.8rem;
     text-transform: uppercase;
     color: rgba(139, 180, 216, 0.94);
 }
@@ -223,7 +222,7 @@ svg:not(:root).svg-inline--fa  {
 
 .contact-icon {
     width: 1.3rem;
-    margin-right: 5px;
+    margin: 5px;
 }
 
 ::-webkit-scrollbar {
