@@ -19,7 +19,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: inherit;
+    color: #ffbd48!important;
 }
 
 p {
@@ -144,7 +144,7 @@ svg:not(:root).svg-inline--fa  {
 .terminal-window {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    height: 254px;
+    height: 25rem;
     padding: .5rem 0rem 0rem .5rem;
     display: flex;
     flex-direction: column;
@@ -186,7 +186,7 @@ svg:not(:root).svg-inline--fa  {
 
 .terminal-line {
     position: relative;
-    font-family: 'Anonymous Pro', monospace;
+    letter-spacing: 1px;
     font-size: .9rem;
     color: #b7c5d2;
 }
@@ -212,6 +212,17 @@ svg:not(:root).svg-inline--fa  {
 .dummy-keyboard {
     opacity:0;
     filter:alpha(opacity=0);
+}
+
+.user-input {
+    border-right: 1px solid #009688;
+    margin-left: 8px;
+    animation: blink .5s;
+    animation-iteration-count: infinite;
+}
+
+.contact-icon {
+    font-size: 1.3rem;
 }
 
 ::-webkit-scrollbar {
@@ -302,4 +313,9 @@ svg:not(:root).svg-inline--fa  {
   to {
     transform: translateY(-2000px);
   }
+}
+
+@keyframes blink {
+    from { border-right-color: transparent; }
+    to { border-right-color: #009688; }
 }
