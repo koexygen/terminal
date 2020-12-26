@@ -25,7 +25,7 @@ const COMMANDS = {
   education:
     "Private School Olimpi, Tbilisi<br>University — Georgian Technical University<br>Academy/Bootcamp — <a href='https://appacademy.io' target='_blank' class='success link'>AppAcadeny.io</a> Full Stack Software Engineer<br>Online/Self Learning — Everything Everywhere",
   resume:
-    "<a href='./resume.pdf'  download class='success link'>Click here for download Gio's Resume</a>",
+    "<a href='./resume.pdf' class='success link'>Click here for download Gio's Resume</a>",
   portfolio:
     " <a href='https://nextflix-g.herokuapp.com/' target='_blank' class='success link'>Nextflix</a> - A Netflix-inspired full stack, single-page web application where users can browse and watch movies. <br>" +
     " <a href='https://koexygen.github.io/what-to-watch-d3/' target='_blank' class='success link'>WTW</a> - What to watch is a single page application that helps you quickly find movie & tv series for watch. <br>" +
